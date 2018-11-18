@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Currency Convert</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="moment.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+  <p class="jsrath">Developed by <a href="http://www.jsrath.com">jsrath</a></p>
+  <div class="container">
+    <h1>Currency Convert</h1>
+    <form class="currency-form">
+      <div class="amount-container">
+        <label for="base-amount">Amount</label>
+        <input type="number" name="base-amount" id="base-amount">
+      </div>
+      <div class="convert-container">
+        <div class="base-container">
+          <label for="base-currency">From</label>
+          <select class="currency" name="base-currency" id="baseCurrency"></select>
+        </div>
+        <div class="exchange-container">
+          <label for="base-currency">To</label>
+          <select class="currency" name="base-currency" id="exchangeCurrency"></select>
+        </div>
+      </div>
+      <div class="date-container">
+        <label for="exchange-date">Date</label>
+        <input type="date" name="exchange-date" id="exchangeDate">
+      </div>
+      <input type="submit" value="Get Rates">
+      <div class="output">
+
+      </div>
+    </form>
+    <h1 class="chart-title">Currency Chart</h1>
+    <div class="chart-container">
+      <h2 class="chart-subtitle"><span id="base-currency-title"></span> to <span id="exchange-currency-title"></span></h2>
+      <div class="buttons">
+        <button id="oneMonth">1 Month</button>
+        <button id="threeMonths">3 Months</button>
+        <button id="sixMonths">6 Months</button>
+        <button id="oneYear">1 Year</button>
+      </div>
+
+      <div class="chart"></div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
