@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Currency Convert Screenshot" src="./screenshot.jpg" width="800" />
+  <img alt="Bankroll Screenshot" src="./screenshot.jpg" width="800" />
 </p>
 <p align="center">
   <a href="#">
@@ -10,16 +10,16 @@
   </a>
 </p>
 <hr>
-<h1 align="center">Currency Convert</h1>
+<h1 align="center">Bankroll</h1>
 <h4 align="center">Live exchange rates and real-time currency charts.</h4>
-<h3 align="center"><a href="http://projects.jsrath.com/currency-convert">LIVE SITE</a></h3>
+<h3 align="center"><a href="http://projects.jsrath.com/bankroll">LIVE SITE</a></h3>
 
-Built with D3.js and vanilla JavaScript, Currency Convert gives you easy access to real time currency prices. See how exchange rates have changed over time with its built-in currency charts.  
+Built with D3.js and vanilla JavaScript, Bankroll gives you easy access to real time currency prices. See how exchange rates have changed over time with its built-in currency charts.  
 
 ## Installation
 
 ```sh
-git clone https://github.com/jsrath/currency-convert.git
+git clone https://github.com/jsrath/bankroll.git
 ```
 
 ## License
