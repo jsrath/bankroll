@@ -109,6 +109,7 @@ function displayChart() {
   drawChart(clientWidth);
   setChartTitles();
   document.querySelector('.chart-container').classList.add('displayed');
+  document.querySelector('.output').scrollIntoView();
 }
 
 function setChartTitles() {
